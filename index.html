@@ -20,5 +20,18 @@ VK.Widgets.Comments("vk_comments", {limit: 10, width: "665", attach: "*"});
       <h1>Hello world</h1>
       
       <div id="vk_comments"></div>
+      ====================
+      <!-- Put this script tag to the <head> of your page -->
+<script type="text/javascript" src="//vk.com/js/api/openapi.js?121"></script>
+
+<script type="text/javascript">
+  VK.init({apiId: 5243155, onlyWidgets: true});
+</script>
+
+<!-- Put this div tag to the place, where the Like block will be -->
+<div id="vk_recommended"></div>
+<script type="text/javascript">
+VK.Widgets.Recommended("vk_recommended", {limit: 5});
+</script>
     </body>
 </html>
