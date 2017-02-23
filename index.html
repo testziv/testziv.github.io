@@ -11,12 +11,13 @@
 	    <script type="text/javascript" src="//vk.com/js/api/openapi.js?139"></script>
 
 
-<script type="text/javascript">
-VK.Widgets.Comments("vk_comments", {limit: 10, width: "665", attach: "*"});
-</script>
+
     </head>
     <body>
-      <h1>Hello world up</h1>
+	   <script type="text/javascript">
+  VK.init({apiId: 5243155});
+</script>
+      <h1>Hello world up init</h1>
       
       <div id="vk_comments"></div>
       ====================
@@ -37,10 +38,10 @@ VK.Widgets.Recommended("vk_recommended", {limit: 15});
 <script type="text/javascript">
 VK.Widgets.Auth("vk_auth", {width: "200px"});
 </script>
-<script type="text/javascript">
-  VK.init({apiId: 5243155});
-</script>
-	    
+
+	  <script type="text/javascript">
+VK.Widgets.Comments("vk_comments", {limit: 10, width: "665", attach: "*"});
+</script> 
 	    
     </body>
 </html>
